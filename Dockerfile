@@ -14,4 +14,4 @@ RUN pip install -r requirements.txt
 EXPOSE 5000 6000
 
 # Run both services simultaneously
-CMD ["sh", "-c", "python ml-model.py & python personal-api.py"]Update this file to add the content
+CMD ["sh", "-c", "python ml-model.py & python personal-api.py"]
